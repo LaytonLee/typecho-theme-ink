@@ -1,0 +1,90 @@
+:root {
+    --bg-color-light: #e3e3e3;
+    --card-bg-light: #fff;
+    --text-color-light: #333;
+    --bg-color-dark: #333;
+    --text-color-dark: #fff;
+    --card-bg-dark: #222;
+}
+
+body, html {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    font-size: 16px;
+    font-family: -apple-system,system-ui,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Arial!important;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+button {
+    background-color: var(--bg-color);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: var(--card-bg-color);
+    padding: 0px 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+footer {
+    background-color: var(--card-bg-color);
+    display: flex;
+    justify-content: center;
+    padding: 15px 10px;
+}
+
+@media (max-width: 767px) {
+    body {
+      font-size: 81.25%;
+    }
+    #nav-menu a {
+      float: none;
+      display: inline-block;
+      margin: 0 -2px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #header,
+    .post-title,
+    .post-meta {
+      text-align: center;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    article {
+        max-width: 792px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    article {
+      min-width: 952px;
+    }
+  }

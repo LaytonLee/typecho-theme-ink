@@ -1,0 +1,87 @@
+article {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: var(--card-bg-color);
+    padding: 10px 10px;
+}
+
+.post-meta {
+    color: #8a919f;
+    font-size: 0.85rem;
+    line-height: 22px;
+}
+
+.post-meta ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.post-meta ul li{
+    padding-right: 1rem;
+}
+
+.post-meta a {
+    font-size: 0.85rem;
+    font-family: sans-serif;
+}
+
+.post-content a {
+    color: #a0a0a0;
+}
+
+.post-near ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+article .post-content {
+    padding-left: 10px;
+}
+
+.post-catelog {
+    position: fixed;
+    background-color: var(--card-bg-color);
+    top: 60px;
+    left: 20px;
+    width: 150px;
+    display: flex;
+    font-size: 14px;
+    flex-direction: column;
+    padding: 10px 20px 10px 10px;
+    border-radius: 4px;
+}
+
+.post-catelog-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e4e6eb;
+}
+
+.post-catelog-content {
+    padding-top: 10px;
+    font-size: 0.9rem;
+}
+
+.post-catelog-content a {
+    padding: 4px;
+}
+
+.catelog-heading-2 a {
+    padding-left: 1rem;
+    line-height: 22px;
+}
+
+.catelog-heading-3 a {
+    padding-left: 2rem;
+    line-height: 22px;
+    color: #8a919f;
+}

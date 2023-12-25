@@ -1,0 +1,83 @@
+.site-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-img {
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    overflow: hidden;
+}
+
+.profile-img img {
+    width: 100%; 
+    height: auto;
+    display: block;
+}
+
+.site-name {
+    margin-left: 10px;
+}
+
+header .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    padding: 0 0.5rem;
+}
+header ul li {
+    margin-right: 10px;
+}
+
+header .func {
+    display: flex;
+    justify-content: flex-start;
+}
+
+header .theme-switch {
+    display: flex;
+}
+header .theme-switch button {
+    border: none;
+    background-color: inherit;
+    color: var(--text-color);
+    padding: 0;
+}
+
+header .link {
+    display: flex;
+    justify-content: flex-start;
+}
+
+header .search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+
+header .search-form {
+    position: relative;
+}
+
+header .search input {
+    padding: 5px 30px 5px 5px;
+    border-radius: 20px;
+}
+
+header .search button {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    right: 8px;
+    border: none;
+    background-color: inherit;
+}

@@ -1,0 +1,81 @@
+.post-abstract {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: var(--card-bg-color);
+    padding: 10px 10px;
+}
+
+.post-abstract ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.post-abstract ul li {
+    padding-right: 1rem;
+}
+
+.archive-title {
+    /* background-color: var(--card-bg-color);
+    width: 100%; */
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.post-abstract-meta {
+    display: flex;
+    color: #8a919f;
+    font-size: 0.85rem;
+    line-height: 22px;
+}
+.post-abstract-meta a {
+    font-size: 0.85rem;
+    color: #8a919f;
+    font-family: sans-serif;
+}
+
+.post-abstract-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.post-abstract-content,
+.post-meta,
+.post-meta a {
+    color: #8a919f;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.pagination ol {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #555;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination .current a {
+    background-color: #b0b0b0;
+    color: #444;
+    font-size: 1.1rem;
+}
